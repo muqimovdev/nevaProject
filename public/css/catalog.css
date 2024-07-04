@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+header .header-content {
+  width: 75%;
+  height: 60vh;
+  margin: 0 auto;
+  background-image: url(./catalog_img/Rectangle\ 17.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 3rem;
+}
+
+header .header-content .container {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header .header-content .container h1 {
+  color: #ffffff;
+  width: 50rem;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+header .header-content .container p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  width: 40rem;
+  margin-bottom: 3rem;
+}
+
+header .header-content .container h4 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+main .container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+main .container h3 {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+main .container .watches {
+  width: 100%;
+}
+
+main .container .watches .items {
+  display: flex;
+  justify-content: center;
+}
+
+main .container .watches h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+main .container .watches .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+}
+
+main .container .watches .title .modal-search {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  height: 40px;
+  background-color: #F7F7F7;
+}
+
+main .container .watches .title .modal-search i {
+  font-size: 20px;
+  color: grey;
+}
+
+main .container .watches .title .modal-search input {
+  background-color: #F7F7F7;
+  font-size: 17px;
+  border: none;
+}
+
+main .container .watches .title .modal-search input:focus {
+  outline: none;
+}
+
+main .container .watches .items {
+  margin-bottom: 5rem;
+}
+
+main .container .watches .items .group-1 {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+main .container .watches .items .group-1 .watch_1 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-1 .watch_1:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-1 .watch_2 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-1 .watch_2:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-1 .watch_3 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-1 .watch_3:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-1 .watch_4 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-1 .watch_4:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-2 {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+main .container .watches .items .group-2 .watch_5 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-2 .watch_5:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-2 .watch_6 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-2 .watch_6:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-2 .watch_7 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-2 .watch_7:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-2 .watch_8 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-2 .watch_8:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-3 {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+main .container .watches .items .group-3 .watch_9 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-3 .watch_9:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-3 .watch_10 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-3 .watch_10:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-3 .watch_11 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-3 .watch_11:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-3 .watch_12 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-3 .watch_12:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-4 {
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 5rem;
+}
+
+main .container .watches .items .group-4 .watch_13 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-4 .watch_13:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-4 .watch_14 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-4 .watch_14:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-4 .watch_15 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-4 .watch_15:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items .group-4 .watch_16 {
+  width: 250px;
+  transition-duration: 0.3s;
+  text-align: center;
+  padding: 25px;
+}
+
+main .container .watches .items .group-4 .watch_16:hover {
+  box-shadow: 0px 0px 10px #808080;
+}
+
+main .container .watches .items img {
+  margin-bottom: 1rem;
+}
+
+main .container .watches .items h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 1rem;
+}
+
+main .container .watches .items button {
+  transition-duration: 0.3s;
+  padding: 15px 60px;
+  background-color: #CDB494;
+  border: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+main .container .watches .items button:hover {
+  background-color: #000000;
+}
+
+main .container .watches .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main .container .watches .btn .btn-veiw-more {
+  transition-duration: 0.4s;
+  padding: 20px 100px;
+  font-size: 1rem;
+  border: 2px solid #000000;
+  background-color: #fffff;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+main .container .watches .btn .btn-veiw-more:hover {
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 0px 0px 20px #000000;
+  text-shadow: 0px 0px 10px;
+}/*# sourceMappingURL=catalog.css.map */

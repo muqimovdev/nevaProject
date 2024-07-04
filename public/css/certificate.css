@@ -1,0 +1,173 @@
+.header_top {
+  width: 100%;
+  margin-top: 100px;
+  height: 60vh;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container .row {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .row .header_title {
+  width: 80%;
+  height: 70vh;
+}
+
+.container .row .header_title h1 {
+  font-size: 25px;
+}
+
+.container .row .header_title a {
+  border-bottom: solid 2px;
+  transition-duration: 0.5s;
+}
+
+.container .row .header_title a:hover {
+  color: #CDB494;
+}
+
+.container .row .header_title .gift {
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .row .header_title .gift h1 {
+  font-size: 50px;
+}
+
+.container .row .header_title .gift p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.container .row .header_title h1 a {
+  color: black;
+}
+
+.container .row .serficatetitle h1 a:hover {
+  border-bottom: solid 2px black;
+  color: blue;
+}
+
+.container .row img {
+  width: 80%;
+  height: 55vh;
+}
+
+.adv {
+  width: 100%;
+  height: 55vh;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  background-color: #F7F7F7;
+}
+
+.title_adv {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  width: 30%;
+  margin: auto;
+}
+
+.services {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.service {
+  width: 450px;
+  height: 300px;
+}
+
+.service div {
+  padding: 30px;
+  width: 20%;
+  height: 10vh;
+  margin: auto;
+  margin-bottom: 30px;
+  background-color: #CDB494;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicetitle {
+  font-size: 40px;
+  color: #fff;
+  background-color: #CDB494;
+}
+
+.service h2 {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.service h3 {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-weight: 500;
+}
+
+.adv1 {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.adv1 h1 {
+  text-align: center;
+  font: large;
+  padding-top: 50px;
+  width: 30%;
+  margin: auto;
+}
+
+.ads {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.ad {
+  width: 450px;
+  height: 300px;
+}
+
+.ad div {
+  display: flex;
+  justify-content: center;
+}
+
+.ad img {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.ad h2 {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=certificate.css.map */

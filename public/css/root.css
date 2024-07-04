@@ -1,0 +1,266 @@
+header {
+  margin-bottom: 10rem;
+}
+
+header .container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header .container .nav_contact {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container .nav_contact .shopping_bag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header .container .nav_contact .shopping_bag h5 {
+  font-weight: 100;
+}
+
+header .container .nav_contact .title {
+  width: 22%;
+  text-align: center;
+}
+
+header .container .nav_contact .title h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+header .container .nav_contact .title h4 {
+  font-weight: 400;
+}
+
+header .container .nav_contact .phone_number p {
+  color: #808080;
+  border-bottom: 1px solid #808080;
+}
+
+header nav {
+  background-color: #F7F7F7;
+}
+
+header nav .container {
+  width: 70%;
+}
+
+header nav .container ul {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+header nav .container ul li a {
+  transition-duration: 0.3s;
+  color: #000000;
+}
+
+header nav .container ul li a:hover {
+  color: #CDB494;
+  border-bottom: 1px solid #CDB494;
+}
+
+main {
+  margin-bottom: 15rem;
+}
+
+main .newsletter .container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+main .newsletter .container .title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+main .newsletter .container .title h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+main .newsletter .container .title h3 {
+  font-weight: 300;
+}
+
+main .newsletter .container .inputs .inp form {
+  gap: 10rem;
+}
+
+main .newsletter .container .inputs .inp {
+  margin-bottom: 1.5rem;
+}
+
+#firstInp {
+  font-size: 20px;
+  padding: 20px 110px;
+  border-radius: 8px;
+  border: none;
+  transition-duration: 0.5s;
+  background-color: #F7F7F7;
+}
+
+#secondInp {
+  font-size: 20px;
+  padding: 20px 110px;
+  border-radius: 8px;
+  border: none;
+  transition-duration: 0.5s;
+  background-color: #F7F7F7;
+}
+
+#thirdInp {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 345px;
+  border-radius: 8px;
+  border: none;
+  transition-duration: 0.5s;
+  background-color: #F7F7F7;
+  margin-bottom: 4rem;
+}
+
+#firstInp:focus {
+  box-shadow: 0px 0px 10px #808080;
+  outline: none;
+}
+
+#secondInp:focus {
+  box-shadow: 0px 0px 10px #808080;
+  outline: none;
+}
+
+#thirdInp:focus {
+  box-shadow: 0px 0px 10px #808080;
+  outline: none;
+}
+
+#newsletter-btn {
+  position: absolute;
+  left: 50rem;
+  transition-duration: 0.5s;
+  background-color: #CDB494;
+  padding: 20px 60px;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#newsletter-btn:hover {
+  box-shadow: 0px 0px 15px #808080;
+  text-shadow: 0px 0px 5px #ffffff;
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #000000;
+}
+
+footer .container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .title {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+}
+
+footer .container .title h4 {
+  color: #ffffff;
+  width: 20rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+footer .container .title h3 {
+  color: #ffffff;
+  width: 20rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+footer .container .title .inp-sub {
+  display: flex;
+}
+
+footer .container .title div input {
+  border: none;
+  font-size: 20px;
+  padding: 20px 40px;
+}
+
+footer .container .title div input:focus {
+  outline: none;
+}
+
+footer .container .title div button {
+  transition-duration: 0.3s;
+  padding: 20px 30px;
+  font-size: 15px;
+  border: none;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #CDB494;
+}
+
+footer .container .title div button:hover {
+  background-color: #a8945b;
+}
+
+footer .container .nav {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  line-height: 3rem;
+}
+
+footer .container .nav ul li a {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+footer .container .contact {
+  display: flex;
+  align-items: center;
+}
+
+footer .container .contact h1 {
+  color: #ffffff;
+}
+
+footer .container .contact h3 {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  border-bottom: 1px solid #ffffff;
+}
+
+footer .container .contact .social-account {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=root.css.map */
