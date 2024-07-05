@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('catalogs', function (Blueprint $table) {
             $table->id();
+            $table->string("img")->nullable();
+            $table->string("title")->nullable();
             $table->timestamps();
         });
     }

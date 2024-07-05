@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('catalog_mains', function (Blueprint $table) {
             $table->id();
+            $table->string("bgImg")->nullable();
+            $table->string("catalogTitle")->nullable();
+            $table->string("catalogContent")->nullable();
             $table->timestamps();
         });
     }

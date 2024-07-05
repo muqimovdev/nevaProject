@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('site_settins', function (Blueprint $table) {
             $table->id();
+            $table->string("siteLogo")->nullable();
+            $table->string("siteTitle")->nullable();
+            $table->string("siteTitleContent")->nullable();
+            $table->string("siteTitleSecond")->nullable();
+            $table->string("sitePhone")->nullable();
+            $table->string("sitePhoneContent")->nullable();
             $table->timestamps();
         });
     }

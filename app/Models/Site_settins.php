@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class site_settins extends Model
 {
     use HasFactory;
+
+    protected  $guarded = [];
 }

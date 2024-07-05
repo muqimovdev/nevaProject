@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('delivery_mains', function (Blueprint $table) {
             $table->id();
+            $table->string("deliveryTitle")->nullable();
+            $table->string("deliveryImg")->nullable();
+            $table->string("deliveryContent")->nullable();
             $table->timestamps();
         });
     }

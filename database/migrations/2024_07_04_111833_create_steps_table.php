@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('steps', function (Blueprint $table) {
             $table->id();
+            $table->string("stepsTitle")->nullable();
+            $table->string("stepsLogo")->nullable();
+            $table->string("stepsContent")->nullable();
             $table->timestamps();
         });
     }

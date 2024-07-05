@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('informations', function (Blueprint $table) {
             $table->id();
+            $table->string("infoTitle")->nullable();
+            $table->string("infoLogo")->nullable();
+            $table->string("infoPhone")->nullable();
             $table->timestamps();
         });
     }
